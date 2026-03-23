@@ -40,7 +40,7 @@
 //class MainActivity : ComponentActivity()
 //{
 //
-//    val API_KEY: String = "86c24c294ac934d0a14219f9477452a8"
+//    val API_KEY: String = "your open weather api key"
 //    // 2. Fix the API Link to actually use the API_KEY variable using string interpolation ($API_KEY)
 //    val API_Link: String = "https://api.openweathermap.org/data/2.5/weather?q=$cityName,PK&units=metric&appid=$API_KEY"
 //
@@ -290,7 +290,7 @@ var textFieldValue by mutableStateOf("")
 class MainActivity : ComponentActivity()
 {
 
-    private val API_KEY = "86c24c294ac934d0a14219f9477452a8"
+    private val API_KEY = "Open Weather API Key"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
